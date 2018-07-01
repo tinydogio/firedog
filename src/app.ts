@@ -1,8 +1,9 @@
 import * as express from 'express';
 import * as bodyParser from 'body-parser';
 import { Routes } from './routes';
+import { MongoClient } from 'mongodb';
 
-class App {
+export class App {
   app: express.Application;
 
   constructor() {
@@ -13,8 +14,10 @@ class App {
   configure(): void {
     this.app.use(bodyParser.json());
     this.app.use(bodyParser.urlencoded({ extended: false }));
-    this.app.use('/', new Routes().register());
+    this.app.use('/', new Routes(this.app).register());
+  }
+
+  start(port = 3000): void {
+    this.app.listen(port, () => console.log(`firedog is running on port ${ port }: http://localhost:${ port }`));
   }
 }
-
-export default new App().app;

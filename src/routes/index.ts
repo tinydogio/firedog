@@ -1,10 +1,11 @@
+import * as express from 'express';
 import { readdirSync } from 'fs';
 import { Router } from 'express';
 
 export class Routes {
   private readonly router: Router;
 
-  constructor() {
+  constructor(app: express.Application) {
     this.router = Router();
     this.processRouterFiles();
   }
