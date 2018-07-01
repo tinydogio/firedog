@@ -18,15 +18,20 @@ _firedog_ intends to be an API generation and management tool similar to Parse a
 ## Setup
 
 **Dependencies**
+* Docker
 * Node v8.9.4
 
 Once the dependencies are installed, open the project in a terminal and enter ```npm install```.
 
 ## Run Project
 
-From your terminal, run ```npm run start```.
+From your terminal, run ```npm run start-docker```.
 
 Go to [http://localhost:3000](http://localhost:3000) in your browser of choice.
+
+## Connecting to mongo running in Docker
+
+Enter the following command in your terminal: ```docker exec -it mongo mongo```.
 
 ## Current State
 
