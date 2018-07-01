@@ -11,6 +11,7 @@ _firedog_ intends to be an API generation and management tool similar to Parse a
 * Starter templates (CMS, ecommerce, Uber-like, etc).
 * Ability to extend via plugins/adapters.
 * Sockets.
+* Docker & Kubernetes support.
 * Multi language SDK's.
 * Third-party integrations.
 
