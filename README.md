@@ -1,4 +1,4 @@
-#firedog by tinydog
+# firedog by tinydog
 
 _firedog_ intends to be an API generation and management tool similar to Parse and Firebase. Size and scale are open to discussion at the moment so now's the time to chime up.  :-)
 
