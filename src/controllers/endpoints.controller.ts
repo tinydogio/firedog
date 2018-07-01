@@ -1,7 +1,8 @@
+import { Controller } from '../core';
 import { Request, Response } from 'express';
 import { Endpoint } from '../models/endpoint.model';
 
-class EndpointsController {
+class EndpointsController extends Controller {
   // TODO: Integrate DB. This is temporary.  :-)
   endpoints: Endpoint[] = [
     {

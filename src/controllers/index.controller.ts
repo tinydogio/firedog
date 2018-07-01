@@ -1,6 +1,7 @@
+import { Controller } from '../core';
 import { Request, Response } from 'express';
 
-class IndexController {
+class IndexController extends Controller {
   index(request: Request, response: Response): void {
     response.json({ expressTS: true });
   }

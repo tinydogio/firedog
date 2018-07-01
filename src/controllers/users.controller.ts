@@ -1,6 +1,7 @@
+import { Controller } from '../core';
 import { Request, Response } from 'express';
 
-class UsersController {
+class UsersController extends Controller {
   users = [
     'Tyler',
     'Mindy',
