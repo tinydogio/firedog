@@ -35,4 +35,4 @@ Routes are registered by adding to an existing ```./routes/*.router.ts``` file i
 **Sample Routes**
 * [http://localhost:3000](http://localhost:3000) - Returns static payload showing the app is running.
 * [http://localhost:3000/users](http://localhost:3000/users) - Returns a static list of users.
-* [http://localhost:3000/users/contain/:name](http://localhost:3000/users/contain/joshua) - Returns boolean if name exists in static array.
+* [http://localhost:3000/users/contains/:name](http://localhost:3000/users/contains/joshua) - Returns boolean if name exists in static array.
