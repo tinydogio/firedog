@@ -2,10 +2,10 @@
   "name": "firedog",
   "version": "1.0.0",
   "description": "An API builder by tinydog.",
-  "main": "server.ts",
+  "main": "./src/server.ts",
   "scripts": {
-    "start": "ts-node ./server.ts",
-    "start-dev": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' ./server.ts",
+    "start": "ts-node ./src/server.ts",
+    "start-dev": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' ./src/server.ts",
     "start-docker": "docker-compose up",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
