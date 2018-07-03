@@ -25,7 +25,7 @@ Once the dependencies are installed, open the project in a terminal and enter ``
 
 ## Run Project
 
-From your terminal, run ```npm run start-docker```.
+From your terminal, enter ```npm run start-docker```.
 
 Go to [http://localhost:3000](http://localhost:3000) in your browser of choice.
 
