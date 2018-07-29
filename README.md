@@ -2,26 +2,26 @@
 
 **NOTE:** We are currently building out base modules for this and this project is on hold until we have more of a foundation in place. We do not feel this will take too long. To see the MVC we are building to power this, please view our [https://github.com/tinydogio/veggiedog](veggiedog) project.
 
-_firedog_ intends to be an API generation and management tool similar to Parse and Firebase. Size and scale are open to discussion at the moment so now's the time to chime up.  :-)
+_firedog_ intends to be an API generation and management tool similar to [https://parseplatform.org/](Parse) and [https://firebase.google.com/](Firebase). Size and scale are open to discussion at the moment so now's the time to chime up.  :-)
 
 **Ideas**
-* Move from express to restify.
-* Move from express to straight node.
+* Move from [https://expressjs.com/](Express) to [http://restify.com/](restify).
+* Move from [https://expressjs.com/](Express) to straight [https://nodejs.org/](Node).
 * Make each endpoint act as a microservice that can be individually scaled as needed.
-* Move to straight ES6 instead of TypeScript.
+* Move to straight ES6+ instead of [https://www.typescriptlang.org/](TypeScript).
 * Dashboard for management.
 * Starter templates (CMS, ecommerce, Uber-like, etc).
 * Ability to extend via plugins/adapters.
 * Sockets.
-* Docker & Kubernetes support.
+* [https://www.docker.com/](Docker) & [https://kubernetes.io/](Kubernetes) support.
 * Multi language SDK's.
 * Third-party integrations.
 
 ## Setup
 
 **Dependencies**
-* Docker
-* Node v8.9.4
+* [https://www.docker.com/](Docker)
+* [https://nodejs.org/](Node) v8.9.4
 
 Once the dependencies are installed, open the project in a terminal and enter ```npm install```.
 
