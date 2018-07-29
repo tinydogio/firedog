@@ -1,5 +1,7 @@
 # 🔥🐶firedog by tinydog
 
+**NOTE:** We are currently building out base modules for this and this project is on hold until we have more of a foundation in place. We do not feel this will take too long. To see the MVC we are building to power this, please view our [https://github.com/tinydogio/veggiedog](veggiedog) project.
+
 _firedog_ intends to be an API generation and management tool similar to Parse and Firebase. Size and scale are open to discussion at the moment so now's the time to chime up.  :-)
 
 **Ideas**
