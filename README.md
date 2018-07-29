@@ -2,7 +2,7 @@
 
 **NOTE:** We are currently building out base modules for this and this project is on hold until we have more of a foundation in place. We do not feel this will take too long. To see the MVC we are building to power this, please view our [veggiedog](https://github.com/tinydogio/veggiedog) project.
 
-_firedog_ intends to be an API generation and management tool similar to [https://parseplatform.org/](Parse) and [https://firebase.google.com/](Firebase). Size and scale are open to discussion at the moment so now's the time to chime up.  :-)
+_firedog_ intends to be an API generation and management tool similar to [Parse](https://parseplatform.org/) and [Firebase](https://firebase.google.com/). Size and scale are open to discussion at the moment so now's the time to chime up.  :-)
 
 **Ideas**
 * Move from [Express](https://expressjs.com/) to [restify](http://restify.com/).
